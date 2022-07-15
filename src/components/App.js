@@ -12,6 +12,7 @@ function increaseHandel () {
 
 function decreaseHandel () {
   console.log("dec btn clicked");
+  dispatch({type:"minus",payload:state.count});
  
  
 }
